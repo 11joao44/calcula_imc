@@ -1,0 +1,74 @@
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: var(--corPrincipal);
+    padding: 20px 0;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    color: #fff;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-size: 1.2em;
+    margin-left: 50px;
+}
+
+.input {
+    margin: 10px 0 0 50px;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.indiceCorporal {
+    display: flex;
+    font-size: 1.5em;
+    padding: 20px 40px;
+}
+
+#imc {
+    margin-left: 10px;
+}
+
+.imc {
+    margin: 30px 0 30px 25px;
+}
+
+.classificacao {
+    font-size: 1.2em;
+    margin-left: 40px;
+}
+
+#classificacao {
+    margin-left: 10px;
+}
+
+.button {
+    width: 150px;
+    height: 30px;
+    margin: 40px auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #000;
+    color: #fff;
+}
